@@ -38,28 +38,27 @@ NODE_ENV (values) = `test` , `dev`, `stage`, `prod`
 ### app/
 Directory Structure
 
-- app
-  - controllers
-    - module
-      - module.controller.js
-  - dbo
-    - module
-      - module.dbo.js
-  - middlewares
-    - authentication.middleware.js
-    - authorization.middleware.js
-  - models 
-    - module
-      - module.model.js
-  - routes
-    - module
-      - module.routes.js
-  - utils
-    - authCodes.js
-    - bcrypt.js
-    - jwt.js
-    - responses.js
-    - sendgrid.js
+- controllers
+  - module
+    - module.controller.js
+- dbo
+  - module
+    - module.dbo.js
+- middlewares
+  - authentication.middleware.js
+  - authorization.middleware.js
+- models 
+  - module
+    - module.model.js
+- routes
+  - module
+    - module.routes.js
+- utils
+  - authCodes.js
+  - bcrypt.js
+  - jwt.js
+  - responses.js
+  - sendgrid.js
 
 
 Note: This is just for reference. You dont need to follow everything here. You can change directory structure if you don't like. You can add utilities files. (You can do anything as long as the code works :D )
